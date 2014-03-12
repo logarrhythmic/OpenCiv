@@ -24,4 +24,5 @@ MonoBehaviour:
   - InstantiateRpc
   - OnAwakeRPC
   - DestroyRpc
+  - Message
   DisableAutoOpenWizard: 0

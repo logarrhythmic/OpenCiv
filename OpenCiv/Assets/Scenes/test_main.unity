@@ -86,6 +86,8 @@ GameObject:
   - 92: {fileID: 1970389223}
   - 124: {fileID: 1970389222}
   - 81: {fileID: 1970389221}
+  - 114: {fileID: 1970389226}
+  - 114: {fileID: 1970389227}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -154,3 +156,38 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1970389226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970389220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9b1cd450352e840b0805d67ae8424a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  guistate: connecting
+  presetResolution_width: 1280
+  presetResolution_height: 720
+--- !u!114 &1970389227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970389220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subId: 1
+  ownerId: 0
+  group: 0
+  prefixBackup: -1
+  observed: {fileID: 0}
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  instantiationId: 0
